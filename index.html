@@ -187,7 +187,7 @@
     function openModal(movie) {
       modalTitle.textContent = movie.title;
       modalSynopsis.textContent = movie.overview || "No synopsis available.";
-      modalTrailer.src = `https://vidsrc.me/embed/movie?tmdb=${movie.id}`;
+      modalTrailer.src = `https://flix.smashystream.xyz/embed/movie?tmdb=${movie.id}`;
       movieModal.style.display = "block";
     }
 
